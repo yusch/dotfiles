@@ -1,0 +1,5 @@
+set clipboard=unnamed  "yank した文字列をクリップボードにコピー
+xnoremap p "_dP
+
+nnoremap == :action ReformatCode<CR>
+vnoremap == :action ReformatCode<CR>
