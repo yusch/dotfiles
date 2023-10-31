@@ -2,4 +2,5 @@
 mv .tmux.conf ~/.tmux.conf
 mv .zshrc ~/.zshrc
 sudo apt install neovim -y
-mv init.vim ~/.config/nvim/init/vim
+mkdir ~/.config/nvim
+mv init.vim ~/.config/nvim/init.vim
