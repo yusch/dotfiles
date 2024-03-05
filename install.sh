@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt install tmux -y
 mv .tmux.conf ~/.tmux.conf
 mv .zshrc ~/.zshrc
 sudo apt install neovim -y
